@@ -1,10 +1,10 @@
 backend:
-  name: github
+  name: git-gateway
   repo: OpenInternet/adapt
   branch: master # Branch to update (optional; defaults to master)
-  auth_endpoint: oauth/authorize
+  auth_endpoint: auth
 
-site_url: https://adapt.netlify.app
+site_url: https://adapt.netlify.app/
 publish_mode: editorial_workflow
 
 # This line should *not* be indented
