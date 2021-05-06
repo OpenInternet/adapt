@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: uracreative/adapt
+  repo: OpenInternet/adapt
   branch: master # Branch to update (optional; defaults to master)
   auth_endpoint: oauth/authorize
 
-site_url: https://uracreative.github.io/adapt
+site_url: https://adapt.netlify.app
 publish_mode: editorial_workflow
 
 # This line should *not* be indented
