@@ -1,0 +1,7 @@
+# How to login and edit the website content
+
+After the website is deployed using Netlify, you can visit the website and point to /admin, which reveals the login/authentication area.
+Here you can authenticate using Netlify, or your GitHub account (make sure you have push access to this repo).
+
+After a successful login, you'll be greeted with a GUI that allows you to edit current posts and/or create new ones.
+The interface is pretty self-explainatory but for a short demo beforehand you can have a look at https://cms-demo.netlify.com/#/collections/posts.
