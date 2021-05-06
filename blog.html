@@ -17,7 +17,7 @@ title: Blog
             <div class="card-post">
                 <div class="row">
                 
-                    {% assign items = site.posts | sort: "date" | reverse %}
+                    {% assign items = site.posts | sort: "date" %}
 
                     {% for item in items limit:1 %}
                     {% if item.excerpt %}
