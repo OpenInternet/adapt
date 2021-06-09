@@ -387,8 +387,11 @@ button {
     border-radius: 8px;
     height: 100%;
 
-    & h3,
-    p {
+    & h3 {
+      color: $hot-pink;
+    }
+
+    & p {
       color: $purple-heart !important;
     }
   }
