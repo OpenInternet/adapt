@@ -182,16 +182,11 @@ button {
   font-size: 20px;
 }
 
-.nav-pills {
-  border-bottom: 2px solid rgba(62, 12, 166, 0.3);
-}
-
 .nav-pills > .nav-link {
   border-bottom: 6px solid transparent;
   color: rgba(62, 12, 166, 0.3) !important;
   background-color: transparent !important;
   border-radius: 0 !important;
-  margin-bottom: -4px;
 
   &.active {
     border-bottom: 6px solid #541ec5;
@@ -390,6 +385,7 @@ button {
     box-shadow: 0px 28px 13px -1px rgba(84, 30, 197, 0.04),
       0px 10px 10px 1px rgba(49, 2, 147, 0.1);
     border-radius: 8px;
+    height: 100%;
 
     & h3,
     p {
@@ -560,6 +556,7 @@ footer {
 
     & > .nav-link {
       margin-bottom: initial;
+      text-align: left;
     }
   }
   .card-info {

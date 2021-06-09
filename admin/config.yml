@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   auth_endpoint: auth
 
-site_url: https://adapt.netlify.app/
+site_url: https://adapt.internews.org
 publish_mode: editorial_workflow
 
 # This line should *not* be indented
