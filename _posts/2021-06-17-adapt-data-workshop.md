@@ -4,13 +4,14 @@ title: ADAPT Data Protection Workshop
 author: joana_adaptsen
 date: 2021-06-17T09:00:00.000Z
 image: cover.png
-categories: jekyll update
+categories: adapt workshop data
 ---
+
 Between May 25 and May 28, Internews hosted data protection experts, digital rights advocates, and regulators from Africa and Latin America to explore some of the most pressing data privacy issues around the globe and discuss possible means of promoting stronger data protection policies, regulatory frameworks, and enforcement mechanisms that respect the human rights of users in all countries.
 
 As a part of the ADAPT project, this workshop centered around six core countries – Kenya, Nigeria, Ethiopia, Brazil, Ecuador, and Bolivia. Given the transnational nature of the issues, though, conversations touched on issues from a wider array of countries across Africa and Latin America. The following post offers a brief summary of each session, and includes a compiled list of trends, challenges, and opportunities that came up throughout the event.
 
-To learn more about the ADAPT project and its partners, please continue to follow our ADAPT blog where we will publish articles, opinions, and research exploring the data protection landscape outside of Europe and the US. 
+To learn more about the ADAPT project and its partners, please continue to follow our ADAPT blog where we will publish articles, opinions, and research exploring the data protection landscape outside of Europe and the US.
 
 ## Sessions Summary
 
@@ -36,7 +37,7 @@ Eliana Quiroz mentioned that the main problem in Bolivia is the lack of capacity
 
 Both Eliana and Lua pointed out that different changes are coming at the political level in their countries, and they consider that it is key to involve more actors in order to carry out effective advocacy. This includes perhaps a broader range of actors; for example, Lua pointed to consumer protection organizations as allies on the issue of personal data protection in Brazil. Linda indicated that there should be a regional approach to the issue, in order to produce regulations applicable to all countries in Africa, as it exists in the European Union. Finally, Alexandrine mentioned that one way to arouse interest and invite other actors to join the cause is to identify how data protection relates to their different agendas.
 
-**Main ideas**: One of the most important challenges seems to be attracting new actors from civil society to join forces in advocacy actions. 
+**Main ideas**: One of the most important challenges seems to be attracting new actors from civil society to join forces in advocacy actions.
 
 **Resources**:
 
@@ -52,7 +53,7 @@ Drudeisha Madhub began her presentation by noting that from her role as the Comm
 
 Drudeisha offered that it is necessary to forge alliances between civil society organizations and officials in charge of data protection, so that both join forces when demanding compliance to governments. Rafael Zanatta pointed out that it is also important to create narratives that allow for the creation of stronger support networks. For example, in Brazil the citizen movement is very diverse and although there are many populations affected by the lack of protection of their data (LGTBIQ communities, Afro-descendants, etc.), they do not participate in advocacy efforts in these topics. Finally, Kuda suggested a regional approach to regulate data protection could be more effective in the long-term.
 
-**Main ideas**: Perhaps the most important challenge is to advocate for independent Data Protection Authorities. There are several strategies that can be used, from participation in legislative reform processes and strategic litigation. Civil society organizations should, when possible, think of commissioners as potential allies. 
+**Main ideas**: Perhaps the most important challenge is to advocate for independent Data Protection Authorities. There are several strategies that can be used, from participation in legislative reform processes and strategic litigation. Civil society organizations should, when possible, think of commissioners as potential allies.
 
 Resources:
 
@@ -82,30 +83,30 @@ Resources:
 
 ### Trends
 
-* Increase in the use of personal data by public entities.
-* Some of the uses of data by government bodies are unsafe and favor mass surveillance. Current data protection laws are inadequate because they contain broad national security exemptions.
-* Processes of creation or modification of data protection laws are currently happening at the national level in Africa and Latin America.
-* There is limited participation of civil society organizations in the debates on data protection regulation.
-* There is a lack of capacity and interest to exercise advocacy actions on data protection.
-* Advocates lack of diverse, multisectoral narratives to create awareness on data protection in different audiences.
-* Data Protection Authorities struggle to establish independence from government.
-* There is room to attract more local allies to the discussion on data protection.
-* Support networks between organizations under construction are still weak at the local and national level.
+- Increase in the use of personal data by public entities.
+- Some of the uses of data by government bodies are unsafe and favor mass surveillance. Current data protection laws are inadequate because they contain broad national security exemptions.
+- Processes of creation or modification of data protection laws are currently happening at the national level in Africa and Latin America.
+- There is limited participation of civil society organizations in the debates on data protection regulation.
+- There is a lack of capacity and interest to exercise advocacy actions on data protection.
+- Advocates lack of diverse, multisectoral narratives to create awareness on data protection in different audiences.
+- Data Protection Authorities struggle to establish independence from government.
+- There is room to attract more local allies to the discussion on data protection.
+- Support networks between organizations under construction are still weak at the local and national level.
 
 ### Main challenges
 
-* There is a need to improve transparency in public sector entities that collect personal data.
-* It is necessary to propose data protection laws (or modify existing ones) so that they can cover current needs, such as avoiding mass surveillance, security breaches, etc.
-* Capacity building is needed in civil society organizations to be able to participate effectively in legislative reform processes.
-* Awareness needs to be raised about the importance of data protection in local actors.
-* Advocacy efforts are needed to achieve greater political and financial independence from Data Protection Authorities.
-* New allies must be attracted from both civil society, the private sector and even the government.
-* Support networks need to be created and strengthened in order to make a significant impact on the national and regional data protection ecosystem. 
+- There is a need to improve transparency in public sector entities that collect personal data.
+- It is necessary to propose data protection laws (or modify existing ones) so that they can cover current needs, such as avoiding mass surveillance, security breaches, etc.
+- Capacity building is needed in civil society organizations to be able to participate effectively in legislative reform processes.
+- Awareness needs to be raised about the importance of data protection in local actors.
+- Advocacy efforts are needed to achieve greater political and financial independence from Data Protection Authorities.
+- New allies must be attracted from both civil society, the private sector and even the government.
+- Support networks need to be created and strengthened in order to make a significant impact on the national and regional data protection ecosystem.
 
 ### Opportunities
 
-* Several of the organizations already have contact with government officials and maintain a good collaborative relationship on different issues related to technology. Projects can consider the good or bad relationship with public sector entities to plan the strategy of their projects.
-* In several countries, data protection laws are still being drafted or there is room to discuss modifications. This means that there are windows of opportunity to impact these processes.
-* Several of the organizations are leaders in the field of human rights and technology in their countries and have gained recognition for their work. Ideally, they should use this position to reach out to other actors and involve them in their advocacy efforts.
-* A little developed strategy that seems to respond well to current data protection challenges is to strengthen regional coordination spaces, in order to share experiences, good practices and funding opportunities.
-* There are already several research papers, reports and other documents that can guide the activities planned by the organizations.
+- Several of the organizations already have contact with government officials and maintain a good collaborative relationship on different issues related to technology. Projects can consider the good or bad relationship with public sector entities to plan the strategy of their projects.
+- In several countries, data protection laws are still being drafted or there is room to discuss modifications. This means that there are windows of opportunity to impact these processes.
+- Several of the organizations are leaders in the field of human rights and technology in their countries and have gained recognition for their work. Ideally, they should use this position to reach out to other actors and involve them in their advocacy efforts.
+- A little developed strategy that seems to respond well to current data protection challenges is to strengthen regional coordination spaces, in order to share experiences, good practices and funding opportunities.
+- There are already several research papers, reports and other documents that can guide the activities planned by the organizations.
