@@ -45,3 +45,14 @@ collections:
       - { label: "Display Name", name: "display_name", widget: "string" }
       - { label: "Bio", name: "bio", widget: "text" }
       - { label: "Image", name: "image", widget: "image" }
+  - name: "pages"
+    label: "Page"
+    folder: "/"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
