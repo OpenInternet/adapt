@@ -26,7 +26,6 @@ title: Blog
                     {% assign excerpt = item.content %}
                     {% endif %}
 
-
                     <div class="col-xl-6 col-lg-12">
                         <a href="{{ site.baseurl }}{{ item.url | replace: '.html', ''  }}">
                             <img class="img-fluid fit-image"
@@ -47,13 +46,14 @@ title: Blog
                                 <h3 class="mt-3">{{ item.title }}</h3>
                             </a>
                             <p class="mb-4">{{ excerpt | strip_html | truncatewords: 60 }}</p>
-
+                            {% if item.author %}
                             {% for author in site.authors %}
                             <img class="rounded me-2"
                                 src="{{ site.baseurl_root }}/assets/images/uploads/{{ author.image }}" width="50px"
                                 height="50px" />
                             <span class="fw-bold head-font">{{ author.display_name }}</span>
                             {% endfor %}
+                            {% endif %}
 
                     </div>
 
@@ -98,11 +98,13 @@ title: Blog
                             <h4 class="mt-3">{{ item.title }}</h4>
                         </a>
                         <p class="mb-4">{{ excerpt | strip_html | truncatewords: 60 }}</p>
+                        {% if item.author %}
                         {% for author in site.authors %}
                         <img class="rounded me-2" src="{{ site.baseurl_root }}/assets/images/uploads/{{ author.image }}"
                             width="30px" height="30px" />
                         <span class="fw-bold head-font purple">{{ author.display_name }}</span>
                         {% endfor %}
+                        {% endif %}
                 </div>
             </div>
 
@@ -147,11 +149,13 @@ title: Blog
                             <h4 class="mt-3">{{ item.title }}</h4>
                         </a>
                         <p class="mb-4">{{ excerpt | strip_html | truncatewords: 60 }}</p>
+                        {% if item.author %}
                         {% for author in site.authors %}
                         <img class="rounded me-2" src="{{ site.baseurl_root }}/assets/images/uploads/{{ author.image }}"
                             width="30px" height="30px" />
                         <span class="fw-bold head-font purple">{{ author.display_name }}</span>
                         {% endfor %}
+                        {% endif %}
                 </div>
             </div>
 

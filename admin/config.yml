@@ -49,6 +49,7 @@ collections:
     label: "Page"
     folder: "/"
     create: true
+    slug: "{{title}}"
     editor:
       preview: true
     fields:
