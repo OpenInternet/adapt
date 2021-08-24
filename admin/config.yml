@@ -29,6 +29,7 @@ collections:
           value_field: "name",
           display_fields: [display_name],
           search_fields: [display_name],
+          required: false,
         }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
