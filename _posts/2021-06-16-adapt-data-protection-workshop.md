@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "ADAPT Data Protection Workshop "
+author: joana_adaptsen
 date: 2021-06-16T17:47:52.651Z
 image: /assets/images/uploads/cover-2.png
 ---
