@@ -15,7 +15,7 @@ collections:
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: true
     fields: # The fields for each document, usually in front matter
@@ -31,6 +31,7 @@ collections:
           search_fields: [display_name],
           required: false,
         }
+      - { label: Categories, name: categories, widget: list }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
