@@ -121,14 +121,13 @@ p {
 
 .nav-link {
   font-weight: 600;
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
   color: $purple-heart !important;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
-    color: lighten($purple-heart, 10%) !important;
+    color: lighten($purple-heart, 10%);
   }
 }
 
@@ -136,7 +135,67 @@ p {
   background: #f3ecff;
   border-radius: 0px 0px 8px 8px;
   margin-top: -2.5rem;
-  padding: 3rem 1rem 1rem 1rem !important;
+  padding: 3rem 2rem 1rem 2rem !important;
+}
+
+.podcast {
+  background: url(/assets/images/podcast-background.png), #7affc7;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: bottom right;
+  color: $eggplant;
+  & a {
+    color: $eggplant;
+  }
+  &-header {
+    line-height: 48px;
+    font-size: 48px;
+    color: $eggplant;
+  }
+  &-subheader {
+    font-size: 20px;
+    letter-spacing: -0.02em;
+  }
+  &-text {
+    font-size: 16px;
+  }
+  &-info {
+    font-size: 12px;
+  }
+  &-number {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  &-title {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 36px;
+  }
+  &-links .nav-item .nav-link {
+    color: $eggplant !important;
+  }
+  &-subscribe {
+    font-size: 18px;
+  }
+  &-details {
+    color: $eggplant;
+    font-size: 48px;
+  }
+  &-cover {
+    position: absolute;
+    left: -7.2rem;
+    top: 0;
+  }
+  &-section {
+    color: $eggplant;
+    font-size: 24px;
+  }
+  & .highlighted {
+    background: rgba(197, 0, 131, 0.1);
+    border-radius: 0px 0px 8px 8px;
+    margin-top: -2.5rem;
+    padding: 3rem 2rem 1rem 2rem !important;
+  }
 }
 
 // Buttons
@@ -203,9 +262,6 @@ button {
   border-radius: 8px;
   text-decoration: none;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
     background-color: lighten($hot-pink, 10%);
@@ -220,9 +276,6 @@ button {
     border-radius: 8px;
     text-decoration: none;
     transition: 0.25s ease-in-out;
-    -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
 
     &:hover {
       background-color: lighten($hot-pink, 10%);
@@ -238,9 +291,6 @@ button {
   border-radius: 8px;
   text-decoration: none;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
     background-color: lighten($purple-heart, 10%);
@@ -256,9 +306,6 @@ button {
   border-radius: 8px;
   text-decoration: none;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
     background-color: $purple-heart;
@@ -274,13 +321,24 @@ button {
   padding-right: 1rem !important;
   border-radius: 8px;
   transition: 0.25s ease-in-out;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
 
   &:hover {
     background-color: lighten($hot-pink, 10%);
     color: $purple-heart !important;
+  }
+}
+
+.explorer {
+  background-color: $eggplant !important;
+  color: #7affc7 !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  border-radius: 8px;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    background-color: lighten($eggplant, 5%) !important;
+    color: #7affc7 !important;
   }
 }
 
@@ -358,6 +416,15 @@ button {
       color: $purple-heart !important;
     }
   }
+  &-content.pod {
+    padding: 3.5rem 10rem;
+    margin-top: -4rem;
+    color: #330a88 !important;
+
+    & a {
+      color: #330a88 !important;
+    }
+  }
   &-small {
     background: #fdfcfe;
     padding: 4rem;
@@ -420,6 +487,14 @@ button {
     margin-top: -12rem;
     margin-bottom: 3rem;
   }
+}
+
+// Transcripts
+
+.transcript {
+  background: #f9f5ff;
+  padding: 2rem 3rem;
+  margin-top: 1rem;
 }
 
 // Markdown
@@ -555,6 +630,14 @@ footer {
   }
   .card-content {
     padding: 3rem;
+  }
+  .card-content.pod {
+    padding: 2rem;
+  }
+  .podcast-cover {
+    position: relative;
+    left: 0;
+    margin-bottom: 1rem;
   }
   .nav-pills {
     border-bottom: none;

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{% include head.html %}
+
+<body>
+    <div class="content podcast">
+        {% include nav-podcast.html %}
+        <header>
+            <div class="container-fluid py-5">
+                <div class="container pt-5">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-xl-7 mb-5">
+                            <h1 class="podcast-header mb-0">
+                                Privacy is global podcast
+                            </h1>
+                            <p class="my-4 podcast-subheader">
+                                Privacidad, siri, privacy, privacidade. Finding the word in different languages might
+                                look simple. The contexts in which privacy plays out around the world, however, is
+                                definitely not. What does privacy mean for people in countries around the world? How are
+                                new technologies and widespread data aggregation impacting societies, politics, and
+                                cultures? What are the stories of the activists working to protect privacy rights and
+                                advocate for adequate laws, regulations and practices to ensure data is collected,
+                                processed, analyzed and used responsibly?<br /><br />
+
+                                Listen to ‘Privacy is Global’, a podcast brought to you by Internews, to learn more
+                                about the context, the struggles and the people behind data protection around the world!
+                            </p>
+                            <p class="mb-2 podcast-text">Sponsored by <a href="https://internews.org/" target="_blank"
+                                    rel="noopener noreferrer">Internews’</a> ADAPT project & the <a
+                                    href="https://us.boell.org/en/homepage" target="_blank"
+                                    rel="noopener noreferrer">Heinrich-Böll-Stiftung
+                                    Washington, DC</a>.
+                            </p>
+                            <div class="row my-4">
+                                <div class="col-auto">
+                                    <img src="{{ site.baseurl }}/assets/images/sponsors/heinrich-boll-stiftung.svg"
+                                        alt="Heinrich Boll Stiftung" width="216px" height="47px">
+                                </div>
+                                <div class="col-auto">
+                                    <img src="{{ site.baseurl }}/assets/images/sponsors/internews.svg" alt="Internews"
+                                        width="158.62px" height="47.7px">
+                                </div>
+                            </div>
+                            <i class="podcast-info">The views expressed in this podcast do not necessarily
+                                represent the views of the
+                                Heinrich-Böll-Stiftung Washington, DC.
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
