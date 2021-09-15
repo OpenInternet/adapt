@@ -123,7 +123,7 @@ p {
   font-weight: 600;
   font-size: 18px;
   font-family: "Space Grotesk", sans-serif;
-  color: $purple-heart !important;
+  color: $purple-heart;
   transition: 0.25s ease-in-out;
 
   &:hover {
@@ -141,7 +141,7 @@ p {
 .podcast {
   background: url(/assets/images/podcast-background.png), #7affc7;
   background-repeat: no-repeat;
-  background-size: 55%;
+  background-size: 52%;
   background-position: bottom right;
   color: $eggplant;
   & a {
@@ -157,7 +157,7 @@ p {
     letter-spacing: -0.02em;
   }
   &-text {
-    font-size: 16px;
+    font-size: 14px;
   }
   &-info {
     font-size: 12px;
@@ -172,7 +172,7 @@ p {
     font-size: 36px;
   }
   &-links .nav-item .nav-link {
-    color: $eggplant !important;
+    color: $eggplant;
   }
   &-subscribe {
     color: $eggplant;
@@ -181,11 +181,6 @@ p {
   &-details {
     color: $eggplant;
     font-size: 48px;
-  }
-  &-cover {
-    position: absolute;
-    left: -7.2rem;
-    top: 0;
   }
   &-section {
     color: $eggplant;
@@ -294,11 +289,11 @@ button {
 }
 
 .share-button {
-  background: #f9f5ff;
+  background: $eggplant;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
-  padding: 10px 16px;
-  color: $purple-heart;
+  padding: 6px 16px;
+  color: #7affc7 !important;
   font-weight: 500;
 }
 
@@ -364,7 +359,7 @@ button {
   transition: 0.25s ease-in-out;
 
   &:hover {
-    background-color: lighten($eggplant, 5%) !important;
+    background-color: lighten($eggplant, 3%) !important;
     color: #7affc7 !important;
   }
 }
@@ -444,8 +439,16 @@ button {
     }
   }
   &-content.pod {
-    padding: 3.5rem 10rem;
+    padding: 3.5rem 7rem;
     margin-top: -4rem;
+    color: #330a88 !important;
+
+    & a {
+      color: #330a88 !important;
+    }
+  }
+  &-content.episode {
+    padding: 3.5rem 7rem;
     color: #330a88 !important;
 
     & a {
@@ -462,6 +465,12 @@ button {
     & > * {
       color: $purple-heart !important;
     }
+  }
+  &-apps {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    width: max-content;
   }
   &-smaller {
     background: #fdfcfe;
@@ -671,11 +680,6 @@ footer {
   .card-content.pod {
     padding: 2rem;
   }
-  .podcast-cover {
-    position: relative;
-    left: 0;
-    margin-bottom: 1rem;
-  }
   .nav-pills {
     border-bottom: none;
 
@@ -687,6 +691,9 @@ footer {
   .card-info {
     margin-top: 0rem;
     padding: 1.5rem 2rem;
+  }
+  .card-apps {
+    width: auto;
   }
   .highlighted {
     background: none;
