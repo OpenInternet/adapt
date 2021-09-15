@@ -675,6 +675,14 @@ footer {
   .card-content {
     padding: 3rem;
   }
+  .card-content.episode {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+  }
+  .transcript {
+    padding: 1.5rem;
+  }
   .podcast-title {
     font-size: 28px;
   }
